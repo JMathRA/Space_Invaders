@@ -1,0 +1,42 @@
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 0.6px;
+	shape-outside: ellipse(20% 50%);
+	clip-path: ellipse(20% 50%);
+	background: rgb(0, 0, 0);
+}
+
+.shooter {
+	
+	border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid grey;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 0;
+}
+
+.laser {
+	background-color: blue;
+}
+
+.boom {
+	background-color: orange;
+}
